@@ -64,5 +64,146 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-mails-ai is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://mails.ai/
+Mails.ai provides a self‑serve AI email API designed for artificial‑intelligence agents. It offers programmatic email addresses with built‑in parsing, identity verification, and reputation scoring, enabling agents to send, receive, and process emails as a core primitive. The platform includes free tier access, scalable pricing, and features like structured reply events and prompt‑injection scanning, targeting developers building AI‑driven communication workflows.
+
+**Areas:** Company · AI · Email · Infrastructure · Agents
+
+## mails-ai on APIs.io
+
+Everything profiled for mails-ai is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/mails-ai/](https://apis.io/providers/mails-ai/)** — or go straight to one of the APIs or properties below.
+
+### APIs (19)
+
+- [mails-ai Account API](https://apis.io/apis/mails-ai/mails-ai-account-api/) — Identify the current API key.
+- [mails-ai Agents API](https://apis.io/apis/mails-ai/mails-ai-agents-api/) — Per-agent email identities and their sending policy.
+- [mails-ai API Keys API](https://apis.io/apis/mails-ai/mails-ai-api-keys-api/) — Create, list, and revoke API keys.
+- [mails-ai Billing API](https://apis.io/apis/mails-ai/mails-ai-billing-api/) — Usage metering and the Stripe billing portal.
+- [mails-ai Connected Apps API](https://apis.io/apis/mails-ai/mails-ai-connected-apps-api/) — The apps connected by signing in (the mails CLI, Claude, ChatGPT …): list and revoke them.
+- [mails-ai Domains API](https://apis.io/apis/mails-ai/mails-ai-domains-api/) — Bring-your-own custom sending domains (records-only DNS verification).
+- [mails-ai Drafts API](https://apis.io/apis/mails-ai/mails-ai-drafts-api/) — Compose, edit, schedule, and send drafts.
+- [mails-ai Events API](https://apis.io/apis/mails-ai/mails-ai-events-api/) — Typed events (incl. classifier output) and the SSE live stream.
+- [mails-ai Inbound API](https://apis.io/apis/mails-ai/mails-ai-inbound-api/) — Received messages and the test-key inbound simulator.
+- [mails-ai Labels API](https://apis.io/apis/mails-ai/mails-ai-labels-api/) — Label objects: a name and a colour, applied to threads.
+- [mails-ai Logs API](https://apis.io/apis/mails-ai/mails-ai-logs-api/) — Audit trail of state-changing operations.
+- [mails-ai Messages API](https://apis.io/apis/mails-ai/mails-ai-messages-api/) — Send, list, retrieve, reply, forward, schedule, and cancel email.
+- [mails-ai Metrics API](https://apis.io/apis/mails-ai/mails-ai-metrics-api/) — Sent, delivered, bounced, complained, received and reply counts over time.
+- [mails-ai Public API](https://apis.io/apis/mails-ai/mails-ai-public-api/) — Unauthenticated endpoints (health, unsubscribe link targets).
+- [mails-ai Reputation API](https://apis.io/apis/mails-ai/mails-ai-reputation-api/) — Workspace- and agent-level deliverability reputation.
+- [mails-ai Search API](https://apis.io/apis/mails-ai/mails-ai-search-api/) — Full-text search over received and sent mail.
+- [mails-ai Suppression API](https://apis.io/apis/mails-ai/mails-ai-suppression-api/) — Suppression lookups and the consent allowlist.
+- [mails-ai Threads API](https://apis.io/apis/mails-ai/mails-ai-threads-api/) — Conversation threads grouping inbound + outbound messages, with read state, folders and labels.
+- [mails-ai Webhooks API](https://apis.io/apis/mails-ai/mails-ai-webhooks-api/) — Endpoint registration, delivery history, test, and replay.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### AsyncAPI (1)
+
+Event-driven and webhook contracts.
+
+- [Mails Ai Webhooks](https://apis.io/asyncapis/mails-ai/mails-ai-webhooks/)
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Mails Ai Agentic Access](https://apis.io/agentic-access/mails-ai/mails-ai-agentic-access/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Mails Ai Context](https://apis.io/jsonld/mails-ai/mails-ai-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [mails-ai API Rules](https://apis.io/rules/mails-ai/mails-ai-rules/)
+
+#### Security (4)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Mails Ai Authentication](https://apis.io/security/mails-ai/mails-ai-authentication/)
+- [Mails Ai Domain Security](https://apis.io/security/mails-ai/mails-ai-domain-security/)
+- [Mails Ai Trust Center](https://apis.io/security/mails-ai/mails-ai-trust-center/)
+- [Mails Ai Vulnerability Disclosure](https://apis.io/security/mails-ai/mails-ai-vulnerability-disclosure/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Mails Ai Plans Pricing](https://apis.io/plans/mails-ai/mails-ai-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://mails.ai/)
+- [Documentation](https://help.mails.ai/)
+- [Getting started](https://mails.ai/docs/quickstart)
+- [API reference](https://mails.ai/docs/api-reference)
+- [Pricing](https://mails.ai/pricing)
+- [Changelog](https://mails.ai/changelog)
+- [Blog](https://mails.ai/blog)
+- [Security](https://mails.ai/security)
+- [Compliance](https://mails.ai/trust)
+- [Terms of service](https://mails.ai/terms)
+- [Privacy policy](https://mails.ai/privacy)
+
+## API Evangelist rating
+
+**Kin Score 70.8** — exemplar · rubric 0.25.0 · scored 2026-10-31
+
+| Facet | Score |
+|---|---|
+| Discoverability | 56.7 |
+| Contract quality | 64.6 |
+| Contract governance | 79.1 |
+| Operational transparency | 34.2 |
+| Developer ergonomics | 73.1 |
+| Access clarity | 88.9 |
+
+**Agent readiness 70.9** — agent-native
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | verified |
+| Error Semantics | verified |
+| OpenAPI Examples | partial |
+| Rate Limit Signal | verified |
+| Event Surface Described | unknown |
+| Agent Skills | unknown |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | partial |
+| Operation Distinctiveness | distinct |
+
+**Regulatory alignment 32.7** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/mails-ai/](https://apis.io/providers/mails-ai/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for mails-ai: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/mails-ai/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
